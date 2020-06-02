@@ -8,6 +8,11 @@ flake8 = "*"
 yapf = "*"
 
 [packages]
+loguru = "*"
+thrift = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+thrift = "python thrift_setup.py"

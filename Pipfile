@@ -10,9 +10,14 @@ yapf = "*"
 [packages]
 loguru = "*"
 thrift = "*"
+httpx = "*"
+urllib3 = "==1.25.8"
+geventhttpclient = "*"
+gevent = "*"
 
 [requires]
 python_version = "3.8"
 
 [scripts]
 thrift = "python thrift_setup.py"
+test = "python test.py"

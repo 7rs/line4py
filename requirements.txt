@@ -1,0 +1,16 @@
+certifi==2020.4.5.1
+flake8==3.8.2
+gevent==20.5.2
+geventhttpclient==1.4.2
+greenlet==0.4.16
+loguru==0.5.0
+mccabe==0.6.1
+pycodestyle==2.6.0
+pyflakes==2.2.0
+python-axolotl-curve25519==0.4.1.post2
+python-dotenv==0.13.0
+six==1.15.0
+thrift==0.13.0
+yapf==0.30.0
+zope.event==4.4
+zope.interface==5.1.0

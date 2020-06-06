@@ -4,14 +4,15 @@ from thrift.protocol.TCompactProtocol import TCompactProtocolAccelerated
 from geventhttpclient import HTTPClient
 from geventhttpclient.url import URL
 
-from .service.TalkService.ttypes import ApplicationType
-from .service.TalkService import TalkService
-from .service.SecondaryQrCodeLoginService import SecondaryQrCodeLoginService
-from .service.SecondaryQrCodeLoginPermitNoticeService import SecondaryQrCodeLoginPermitNoticeService
-from .config import (HeaderBuilder, LEGY_HOST, TALK_SERVICE_V4, LONG_POLLING_V4,
-                     SECONDARY_LOGIN_REQUEST_V1, SECONDARY_LOGIN_CHECK_V1)
-from .thrift import THttpClient
-from .api import TalkServiceClient, LongPollingClient
+from line4py.service.TalkService.ttypes import ApplicationType
+from line4py.service.TalkService import TalkService
+from line4py.service.SecondaryQrCodeLoginService import SecondaryQrCodeLoginService
+from line4py.service.SecondaryQrCodeLoginPermitNoticeService import SecondaryQrCodeLoginPermitNoticeService
+from line4py.config import (HeaderBuilder, LEGY_HOST, TALK_SERVICE_V4,
+                            LONG_POLLING_V4, SECONDARY_LOGIN_REQUEST_V1,
+                            SECONDARY_LOGIN_CHECK_V1)
+from line4py.thrift import THttpClient
+from line4py.api import TalkServiceClient, LongPollingClient
 
 DEFAULT_TIMEOUT = 180.0
 

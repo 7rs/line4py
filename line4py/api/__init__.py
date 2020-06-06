@@ -1,2 +1,2 @@
-from .talk import TalkServiceClient
-from .poll import LongPollingClient
+from line4py.api.talk import TalkServiceClient
+from line4py.api.poll import LongPollingClient

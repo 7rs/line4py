@@ -1,6 +1,6 @@
 from typing import List, Dict, Optional
 
-from .service.TalkService.ttypes import ApplicationType
+from line4py.service.TalkService.ttypes import ApplicationType
 
 LEGY_HOST = "https://legy-jp-addr.line.naver.jp"
 OBS_HOST = "https://obs.line-apps.com"

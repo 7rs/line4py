@@ -2,8 +2,8 @@ import sys
 
 from loguru import logger
 
-from .service.TalkService.ttypes import ApplicationType
-from .client import Client
+from line4py.service.TalkService.ttypes import ApplicationType
+from line4py.client import Client
 
 log_format = "<blue>{time:%s}:{process}</blue> <cyan>{name}:{line}</cyan> <level>{level: <8} | {message}</level>" % (
     "YYYY-MM-DD-HH:mm:ss.SSS")

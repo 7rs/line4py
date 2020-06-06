@@ -1,7 +1,7 @@
 from typing import Dict, Optional
 
-from ..service.TalkService import TalkService
-from ..service.TalkService.ttypes import Message, MessageRelationType, ServiceCode
+from line4py.service.TalkService import TalkService
+from line4py.service.TalkService.ttypes import Message, MessageRelationType, ServiceCode
 
 
 class TalkServiceClient(TalkService.Client):

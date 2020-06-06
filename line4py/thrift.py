@@ -6,7 +6,7 @@ from geventhttpclient.url import URL
 from geventhttpclient.response import HTTPSocketPoolResponse
 from thrift.transport.TTransport import TTransportBase
 
-from .config import LONG_POLLING_V4_PATH
+from line4py.config import LONG_POLLING_V4_PATH
 
 
 class THttpClient(TTransportBase):

@@ -1,7 +1,7 @@
 from typing import List, Dict, Callable
 
-from ..service.TalkService import TalkService
-from ..service.TalkService.ttypes import Operation, OpType
+from line4py.service.TalkService import TalkService
+from line4py.service.TalkService.ttypes import Operation, OpType
 
 _MAX_COUNT = 50
 

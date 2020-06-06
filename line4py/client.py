@@ -6,16 +6,16 @@ import os
 from loguru import logger
 import axolotl_curve25519 as curve
 
-from .service.TalkService.ttypes import ApplicationType
-from .service.TalkService import TalkService
-from .service.SecondaryQrCodeLoginService.ttypes import (
+from line4py.service.TalkService.ttypes import ApplicationType
+from line4py.service.TalkService import TalkService
+from line4py.service.SecondaryQrCodeLoginService.ttypes import (
     CreateQrSessionRequest, CreateQrCodeRequest, VerifyCertificateRequest,
     CreatePinCodeRequest, QrCodeLoginRequest, QrCodeLoginResponse,
     SecondaryQrCodeException)
-from .service.SecondaryQrCodeLoginPermitNoticeService.ttypes import (
+from line4py.service.SecondaryQrCodeLoginPermitNoticeService.ttypes import (
     CheckQrCodeVerifiedRequest, CheckPinCodeVerifiedRequest)
-from .session import Session
-from .token import create_token
+from line4py.session import Session
+from line4py.token import create_token
 
 
 def create_message(*args):

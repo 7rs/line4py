@@ -133,3 +133,4 @@ service/*
 thrift_setup.py
 test.py
 .env
+.pypirc

@@ -21,3 +21,4 @@ python_version = "3.8"
 [scripts]
 thrift = "python thrift_setup.py"
 test = "python test.py"
+requirements = "pip freeze > requirements.txt"

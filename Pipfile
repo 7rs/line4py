@@ -10,10 +10,10 @@ yapf = "*"
 [packages]
 loguru = "*"
 thrift = "*"
-httpx = "*"
-urllib3 = "==1.25.8"
 geventhttpclient = "*"
 gevent = "*"
+python-dotenv = "*"
+python-axolotl-curve25519 = "*"
 
 [requires]
 python_version = "3.8"

@@ -11,7 +11,7 @@ from thrift.protocol.TProtocol import TProtocolException
 from thrift.TRecursive import fix_spec
 
 import sys
-from linepy.service import TalkService
+from line4py.service import TalkService
 
 from thrift.transport import TTransport
 all_structs = []

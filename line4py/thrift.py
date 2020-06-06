@@ -55,12 +55,13 @@ class THttpClient(TTransportBase):
             self.open()
             self.__looped = True
         else:
-            self.flush = self.__flush()
+            self.flush = self.__flush
             self.close()
-            del self.__once_client
+            self.flush()
+            return
 
         data = self.__get_data()
-        headers = self.__get_headers()
+        headers = self.__get_headers(data)
 
         self.__response = self.__once_client.request("POST",
                                                      self.__url.path,

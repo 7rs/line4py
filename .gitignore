@@ -131,3 +131,5 @@ dmypy.json
 
 service/*
 thrift_setup.py
+test.py
+.env

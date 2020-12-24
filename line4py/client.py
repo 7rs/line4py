@@ -81,7 +81,7 @@ class Client(Session):
 
     def check_qrcode_and_verify_certificate(
             self, session_id: str, certificate: Optional[str]) -> Optional[str]:
-        self.set_access_token("")
+        self.set_access_token(session_id)
         self.lc = self.create_secondary_qr_code_login_permit_notice_service_client(
         )
         self.lc.checkQrCodeVerified(CheckQrCodeVerifiedRequest(session_id))

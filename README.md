@@ -16,9 +16,3 @@ from line4py import Client, ApplicationType
 client = Client(ApplicationType.ANDROIDLITE, concurrency=30, secondary=True)
 client.login_with_qrcode()
 ```
-
-## Author
-
-[My Page](https://7rs.github.io)  
-[Twitter](https://twitter.com/R4XELN)  
-[Telegram](https://t.me/R4zLn)

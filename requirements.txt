@@ -1,4 +1,4 @@
-certifi==2020.4.5.1
+certifi==2022.12.7
 flake8==3.8.2
 gevent==20.5.2
 geventhttpclient==1.4.2
